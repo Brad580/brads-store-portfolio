@@ -1,0 +1,55 @@
+:root {
+  --ink: #111111;
+  --paper: #f3f0e8;
+  --cream: #e7ff55;
+  --sage: #c8c4ff;
+  --moss: #263cff;
+  --orange: #ff4e2f;
+  --line: #111111;
+  --muted: #5b5a55;
+  --white: #ffffff;
+  --serif: "Arial Black", "Helvetica Neue", Arial, sans-serif;
+  --sans: "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select {
+  color: inherit;
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: var(--sage);
+  color: var(--ink);
+}
