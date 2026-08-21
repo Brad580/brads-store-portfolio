@@ -1,0 +1,24 @@
+{
+  "name": "brads-store-api",
+  "version": "2.0.0",
+  "description": "The API for Brad's Store",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "vitest run"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1",
+    "vitest": "^4.1.11"
+  }
+}
