@@ -22,7 +22,7 @@ I extended the original FakeStoreAPI codebase with 17 commits under my GitHub id
 - Three MongoDB models: users, products, and carts
 - Five automated tests using Vitest, React Testing Library, and Supertest
 - 20 catalog products in the public demonstration dataset
-- 17 commits attributable to Brad Travers / Brad580 in the current history
+- 17 commits attributable to Brad Travers / Brad580 in the original fork history reviewed before this clean publication
 
 ## Architecture
 
